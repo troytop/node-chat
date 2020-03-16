@@ -1,6 +1,9 @@
 {
   "name": "node-chat",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple chat application in Node.js with no other dependencies. Originally written by Ryan Dahl, the creator of Node.js.",
+  "engines": {
+    "node": ">=10.10.0 <13.11.0"
+  },
   "main": "app.js"
 }

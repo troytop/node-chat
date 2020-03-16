@@ -1,5 +1,6 @@
 applications:
 - name: node-chat
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
-  memory: 64M
-  stack: cflinuxfs2
+  buildpacks:
+  - nodejs_buildpack
+  memory: 24M 
+  disk_quota: 128M
